@@ -328,7 +328,7 @@ input[type=text], textarea {
     background: -o-linear-gradient(top, #f8f8f8 0%, #f2f2f2 100%); /*Opera*/
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f8f8f8), color-stop(1, #f2f2f2)); /*Chrome*/
     height: 70px;
-    padding-top: 5px;
+    padding-top: 3px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 2px rgba(198, 198, 198, 0.5);
     -webkit-transition: top 1s ease, left 1s ease;

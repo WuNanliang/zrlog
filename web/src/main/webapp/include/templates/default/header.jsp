@@ -33,17 +33,11 @@
     <![endif]-->
     <style>
         header .avatar {
-            display: block;
-            float: left;
-            width: 64px;
-            height: 64px;
-            margin-top: -8px;
-            margin-right: 5px;
-            border-radius: 50%;
-            /*box-shadow: 0px 0px 10px 2px #EDEDEF;*/
             background: url('${_res.avatar}') scroll center center #FFFFFF;
             background-size: cover;
-            overflow: hidden;
+            margin-top: -5px;
+            width: 60px;
+            height: 60px;
         }
 
         .gn-menu-main li.sitename .gn-icon {
@@ -52,9 +46,8 @@
             margin-top: 10px;
             border-radius: 50%;
             background-size: cover;
-            background: #f0f0f0 url('${_res.avatar}') no-repeat center center;
+            background: url('${_res.avatar}') no-repeat center center;
             display: inline-block;
-            background-size: cover;
         }
 
         .markdown-body ul, .markdown-body ol {
